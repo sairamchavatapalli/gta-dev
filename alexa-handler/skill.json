@@ -1,0 +1,223 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "georgia technology",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GoBackIntent",
+                    "slots": [],
+                    "samples": [
+                        "go back",
+                        "back to previous intent",
+                        "previous intent",
+                        "back to previous screen",
+                        "go to previous page",
+                        "open past screen",
+                        "please go previous list"
+                    ]
+                },
+                {
+                    "name": "OrdinalIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "number {number}",
+                        "play {number}",
+                        "choose {number}",
+                        "select {number}",
+                        "open {number}",
+                        "{number}"
+                    ]
+                },
+                {
+                    "name": "MainMenuIntent",
+                    "slots": [],
+                    "samples": [
+                        "back to main menu",
+                        "go to main menu",
+                        "show menu",
+                        "main menu",
+                        "show main menu"
+                    ]
+                },
+                {
+                    "name": "AboutUsIntent",
+                    "slots": [],
+                    "samples": [
+                        "show about us",
+                        "open about us",
+                        "can you tell about you",
+                        "about us",
+                        "tell about us"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "activityName",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "balaviharRegistration",
+                                "synonyms": [
+                                    "bala vihar registration",
+                                    "Bala vihar"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "balaviharRegistrationStudent",
+                                "synonyms": [
+                                    "Returning student",
+                                    "new sibling",
+                                    "Bala vihar Registration Returning student new sibling"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "balaviharAnnualDay",
+                                "synonyms": [
+                                    "Bala vihar Annual day",
+                                    "Annual day"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "balaviharDonations",
+                                "synonyms": [
+                                    "Bala vihar Donations Books and CDs",
+                                    "Bala vihar Donations",
+                                    "Bala vihar Books and CDs"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "languageClasses",
+                                "synonyms": [
+                                    "Language Classes"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yogaClass",
+                                "synonyms": [
+                                    "Yoga Class",
+                                    "yoga classes"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "danceClasses",
+                                "synonyms": [
+                                    "Dance Classes",
+                                    "Kuchipudi"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "musicInstrument",
+                                "synonyms": [
+                                    "Music Instrument",
+                                    "Music Classes"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "summerTutoring",
+                                "synonyms": [
+                                    "Summer Tutoring",
+                                    "Summer Classes"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "facilityName",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "mahathiAuditorium",
+                                "synonyms": [
+                                    "mahathi auditorium",
+                                    "mahathi"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "akshayaHall",
+                                "synonyms": [
+                                    "akshaya hall",
+                                    "akshay hall",
+                                    "akshaya"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nityaKalyani",
+                                "synonyms": [
+                                    "nitya kalyani",
+                                    "nithya kalyani"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yagashala",
+                                "synonyms": [
+                                    "yagashala"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
